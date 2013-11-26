@@ -408,6 +408,33 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: 0;
 }
 
+.static-nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    margin-top: -5rem;
+    background-color: #F7FAFB;
+    border-bottom: #EBF2F6 1px solid;
+    line-height: 1.7em;
+    color: #BBC7CC;
+    padding: 1rem 0;
+    text-align: center;
+}
+.static-nav ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 700px;
+    padding: 0;
+}
+.static-nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+.static-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
