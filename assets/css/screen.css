@@ -374,6 +374,7 @@ margin on the iframe, cause it breaks stuff. */
     text-align: center;
     color: #fff;
     background-size: cover;
+    text-shadow: 1px 1px 5px rgba(50, 50, 50, 0.75);
 }
 .site-head:after {
     opacity: 0.4;
@@ -398,6 +399,7 @@ margin on the iframe, cause it breaks stuff. */
     width: auto;
     margin: 0 auto;
     line-height: 0;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(50, 50, 50, 0.75));
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -407,6 +409,8 @@ margin on the iframe, cause it breaks stuff. */
     letter-spacing: -1px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
+    color: #FB44D8;
+    -webkit-text-stroke: 2px white;
 }
 
 .blog-description {
